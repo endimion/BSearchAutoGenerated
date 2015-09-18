@@ -11,7 +11,5 @@ and translates them to equivallent Java Modeling Language Specifications (JML).
 The JML specification can then be manually implemented, and the code
 verified against the specification with a variety of tools. 
 
-In this case study I took a specification of the binary search algorithm automatically
-in CafeOBJ automatically translated it into an equivalent JML specification
-and verified that the Java implementation satisfies the JML spec, and thus also
-the original CafeOBJ specification.
+In this case study I created a specification of the binary search algorithm 
+in CafeOBJ and automatically translated it into an equivalent JML specification using Cafe2JML. Then, I verified that the Java implementation satisfies the JML spec (using the Esc/Java2 tool), and thus also the original CafeOBJ specification.
